@@ -8,7 +8,7 @@ namespace WeatherApp
         public static async Task<Weather> GetWeather(string cityName)
         {
             //Sign up for a free API key at http://openweathermap.org/appid
-            string key = "5cb6113863642bf2e25897f1ca841043";
+            string key = "[Your API Key]";
             //string queryString = "http://api.openweathermap.org/data/2.5/weather?zip="
             //    + cityName + ",us&appid=" + key + "&units=imperial";
 			
